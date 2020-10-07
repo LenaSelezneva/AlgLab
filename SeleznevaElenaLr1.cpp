@@ -97,6 +97,7 @@ int main()
                     arr = new_arr;
                     cout << "Массив копируется, конец заполняется случайными буквами: ";
                     printArr(arr, size);
+                    delete[] new_arr;
                     cout << "Хотите ли вы увеличить массив?\n1)да\n2)нет\n";
                     cin >> c;
                 }                             
